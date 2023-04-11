@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - html_BS5_base</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js'></script><script  src="./script.js"></script>
+
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" >Info Grabbers &trade;</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Repository</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">NuValidation</a>
+        </li>
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Test</a></li>
+            <li><a class="dropdown-item" href="#">Testing</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Testing again</a></li>
+          </ul>
+        </li> -->
+        <!-- <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li> -->
+      </ul>
+      <!-- <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form> -->
+    </div>
+  </div>
+</nav>
+
+<div id="title-bar">
+  <!-- <button id="close-btn" class="tb-buttons">
+    <img src="Images/Close.png" />
+  </button> -->
+  <p id="title">Give Me Your Info, It's Definitely Going to a Good Cause</p>
+  <!-- <button id="eye-btn" class="tb-buttons">
+    <img src="Images/Hide.png" />
+  </button>
+  <button id="min-btn" class="tb-buttons">
+    <img src="Images/Min.png" />
+  </button> -->
+</div>
+
+  
+<!-- All together, now -->
+
+<!-- input email -->
+<div class="row">
+  <div class="col-md-6 offset-md-3 card mt-3">
+
+    <div class="mb-3 mt-3">
+      <label for="email" class="form-label">Email:</label>
+      <input
+        type="email"
+        class="form-control"
+        id="email"
+        placeholder="Enter email"
+        name="email"
+        
+      />
+    </div>
+
+    <!-- input full name -->
+    <div class="mb-3 mt-3">
+      <label for="fname" class="form-label">Full Name:</label>
+      <input
+        type="text"
+        class="form-control"
+        id="fname"
+        placeholder="Enter your full name"
+        name="fname"
+        style="width: 250px"
+      />
+  </div>
+
+  <!-- input username -->
+<div class="mb-3 mt-3">
+          <label for="uname" class="form-label">Your Most Used Username:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="uname"
+            placeholder="Enter your Username"
+            name="uname"
+            style="width: 250px"
+          />
+          
+      </div>
+
+      <!-- input password -->
+      <div class="mb-3 mt-3">
+        <label for="pwd" class="form-label">Your Most Used Password:</label>
+        <input
+          type="password"
+          class="form-control"
+          id="pwd"
+          placeholder="Enter password"
+          name="pswd"
+          style="width: 250px"
+        />
+
+        <!-- confirm password -->
+        <input 
+        type="password" 
+        class="form-control"
+        placeholder="Confirm Password" 
+        id="confirm_password" 
+        name="cnfpswd"
+        style="width: 250px"
+        required>
+      </div>
+      <button id="submitForm" type="submit" class="btn btn-primary" style="width: 250px">Confirm</button>
+    </fieldset>
+</form>
+</div>
+</div>
+
+
+
+
+</body>
+</html>
+
